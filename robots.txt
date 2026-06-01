@@ -1,0 +1,13 @@
+# robots.txt — SAJ Blockchain Portfolio
+# https://sajblockchain.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sajblockchain.com/sitemap.xml
+
+# Block irrelevant paths (if any server-side routes added later)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
